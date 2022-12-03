@@ -1,0 +1,182 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pictureLogo/skystarts.webp);
+
+  }
+  .top-section {
+    margin: 0;
+    background-image:url(./pictureLogo/wallpaperPaintViolet.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  div#fashion {
+    margin-top:-100px ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .languajeOpcion{
+    color: aliceblue;
+    margin-top:-150px;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding:1px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+  }
+
+
+  h2 { 
+    font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+    font-size: 8vmin;
+    text-align: center;
+    margin: 2rem 3rem 0;
+    mix-blend-mode:normal;
+    color:white;
+    font-weight: bold;
+    ;
+  }
+
+
+a{
+  text-decoration:none
+}
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color:#eee;
+  opacity:0.9 ;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+  opacity:0.9 ;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:200%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden;
+  scale(1.0, 1.0);
+    transform: translateZ(0);
+  background: url(./pictureLogo/skystarts.webp) 50% 0 no-repeat;
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 360s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2;
+
+}
+.header a{
+  color:#eee
+}
+
+
+.info{
+  width:100%;
+  padding:8% 10% 0 10%;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+
+.meta img{
+    border-radius: 300px;
+    margin-top: -20px;
+    margin-left:-10px;
+}
+
+
+.info h4, .meta{
+  font-size:0.7em
+}
+
+
+.content{ 
+    color:aliceblue; 
+    margin-top: 5px;;
+  padding:5% 10%;
+  text-align:justify;
+  display:inline-block;
+  border:2px solid;
+}
+
+/*--------------------*/
+
+.content-personal{
+    background-color:#0c0c0c;
+    font-size:0.9em;
+    color: aliceblue;
+    width:100%;
+    padding:2% 10% 0 10%;
+    text-align:center;
+    text-shadow:0 2px 3px rgba(0,0,0,0.2);
+    opacity:0.9 ;
+}
+
+.top-cv{
+    color:aliceblue;;
+}
+
+
+.experience-wrapper{
+    background-color:;
+    display:inline-block;
+    border:2px solid;
+}
+
+.clearfix{
+    background-color:;
+    margin-top: 5px;;
+    padding:5% 10%;
+    border:2px solid;
+}
+
+
+.btn{
+    background-color: ;
+    color:#333;
+    border:2px solid;
+    border-radius:3px;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-weight:600
+  }
+  
+  .btn{
+color: aliceblue;;
+
+  }
+
+
